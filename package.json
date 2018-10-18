@@ -1,0 +1,25 @@
+{
+  "name": "cordova-printIos",
+  "version": "1.0.0",
+  "description": "my 1st plugin",
+  "cordova": {
+    "id": "cordova-printIos",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roeyHonig/cordova-printIos.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "roeyHonig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roeyHonig/cordova-printIos/issues"
+  },
+  "homepage": "https://github.com/roeyHonig/cordova-printIos#readme"
+}

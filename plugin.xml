@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-printIos" version="1.0.0">
+   <name>PrintIos</name>
+   <js-module name="PrintIos" src="www/PrintIos.js">
+      <clobbers target="cordova.plugins.PrintIos" />
+   </js-module>
+   <platform name="ios">
+      <config-file parent="/*" target="config.xml">
+         <feature name="PrintIos">
+            <param name="ios-package" value="PrintIos" />
+         </feature>
+      </config-file>
+      <source-file src="src/ios/PrintIos.m" />
+      <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+   </platform>
+</plugin>
