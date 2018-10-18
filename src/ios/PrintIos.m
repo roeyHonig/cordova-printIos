@@ -27,7 +27,7 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
-- (void)printMeFromNative
+- (void)printMeFromNative:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil; // allways asume error in the result
     NSString * echo = @"Hello from Native this time";
